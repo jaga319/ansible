@@ -1,0 +1,14 @@
+- name: Jagadeesh
+  DOB:  04-01-2000
+  address:
+        address-line1: gowlidodi
+        address-line2: wiprocircle
+        city: hyderabad
+        email: mummadijagadeesh219@gmail.com
+- name: Madhu
+  DOB: 16-12-2002
+  address:
+        address-line1: DLF
+        address-line2: kallur
+        city: hyderabad
+        email: madhu219@gmail.com
