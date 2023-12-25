@@ -1,5 +1,5 @@
-- name: "To download nginx"
-  hosts: server
+- name: To download nginx
+  hosts: node
   become: yes
   tasks:
   - name: install nginx package
