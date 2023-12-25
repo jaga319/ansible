@@ -9,6 +9,8 @@
 [catalogue]
 192.29.29.02
 192.283.39.29
+[server]
+44.202.155.164
 [roboshop:children]
 web
 cart
