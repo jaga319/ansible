@@ -12,7 +12,9 @@
 [server]
 54.87.131.61
 [node]
-44.202.155.164
+35.173.221.39
+[localhost]
+3.84.0.195
 [roboshop:children]
 web
 cart
