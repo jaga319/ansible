@@ -1,6 +1,6 @@
 - name: writing ansible variables
   hosts: localhost
-  var:
+  vars:
     course: "DEVOPS"
     trainer: "siva"
     duration: "110 hours"
