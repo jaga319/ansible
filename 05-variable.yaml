@@ -4,7 +4,9 @@
     course: "DEVOPS"
     trainer: "siva"
     duration: "110 hours"
+  vars_files:
+    - variables.yaml
   tasks:
     - name: "printing variable in play level"
       ansible.builtin.debug:
-        msg: "Hi , Iam learning {{course}} the trainer is {{trainer}} with duration of {{duration}}"
+        msg: "Hi , Iam learning {{course}} the trainer is {{trainer}} with duration of {{duration}} in {{mode}}"
