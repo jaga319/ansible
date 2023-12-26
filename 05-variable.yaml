@@ -10,3 +10,12 @@
     - name: "printing variable in play level"
       ansible.builtin.debug:
         msg: "Hi , Iam learning {{course}} the trainer is {{trainer}} with duration of {{duration}} in {{mode}}"
+
+# preference of variable 
+
+# 1.CMD
+# 2.TASK
+# 3.FILE
+# 4.PROMPT
+# 5.PLAY
+# 6.INVENTORY
