@@ -1,5 +1,5 @@
 - name: writing condition play-book
-  host: localhost
+  hosts: localhost
   tasks:
     - name: checking user is availbale or not
       ansible.builtin.command: id roboshop
