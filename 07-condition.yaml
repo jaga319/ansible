@@ -6,7 +6,7 @@
       register: user # user is variable to store id 
       ignore_errors: true
     - name: print variable user
-      ansible.bultin.debug: 
+      ansible.builtin.debug: 
         msg: "user output is :{{user}}"
     - name: print exit status code
       ansible.builtin.debug:
