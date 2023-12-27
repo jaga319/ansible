@@ -3,8 +3,8 @@
   become: yes
   tasks:
     - name: printing loop values
-      ansible.builtin.debug:
-        msg: "The loop values are : {{item}}"
+      ansible.builtin.debug:  # ansible.builtin.package:
+        msg: "The loop values are : {{item}}"  # name: "{{item}}"
       loop:
         - ramesh
         - suresh
